@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #262222;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(87, 87, 87, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.3em;
     line-height: 1.4em;
 }
 
@@ -1043,12 +1043,33 @@ h4 {
 }
 
 .img-text{
-    font-size: 2.2rem;
-    opacity: 0.9;
+    font-size: 1.2em;
+    /* opacity: 0.95; */
+}
+cite{
+    font-size: .9em;
 }
 .contrast-background{
-    background-color: #484848;
+    background-color: #F39760;
     padding: .5em 0.8em;
     border-radius: .7em;
     margin: 0 1em;
+    border: solid 1px #262222;
+}
+.border-contrast-light{
+    border: 1px solid #F39760;
+    border-radius: 50%;
+}
+.text-contrast-dark{
+    color: #262222!important;
+}
+.text-contrast-light{
+    color: #F39760;
+}
+.back-contrast-dark{
+    background: #262222;
+    /* color: #F39760; */
+}
+.back-contrast-dark:hover{
+    background: rgba(87, 87, 87, 1);
 }
